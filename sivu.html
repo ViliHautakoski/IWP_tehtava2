@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>tehtava2</title>
+    <script src = "logiikka.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for = "Uname">Username:</label>
+        <input type = "text" id = "input-username" name = "Uname"><br>
+        <label for = "Email">Email:</label>
+        <input type = "text" id = "input-email" name = "Email"><br>
+        <label for = "Admin">Admin:</label>
+        <input type = "checkbox" id = "input-admin" name = "Admin" value = "X" ><br>
+        <label for = "Image">Image:</label>
+        <input type = "file" id = "input-image" name = "Image"><br>
+    </form>
+    <button id = "submit-data">Submit data</button>
+    <button id = "empty-table">Remove all data</button>
+    <br><br>
+    <table>
+        <thead>
+        <tr><th>Username</th><th>Email</th><th>Admin</th> </tr>
+        </thead>
+        <tbody id = table-body>
+            <tr id="newline"><td>Kissa</td><td>kissa@gmail.com</td><td>X</td></tr>
+            <tr><td>Kissa</td><td>kissa@gmail.com</td><td>X</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
